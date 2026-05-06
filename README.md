@@ -1,4 +1,4 @@
-# DermaDx Lite — AI Skin Disease Classifier
+# DermaDx  Skin Disease Classifier
 
 A web application that uses machine learning to diagnose 6 types of erythemato-squamous skin diseases from clinical features.
 
