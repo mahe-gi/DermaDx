@@ -1,12 +1,12 @@
-# 🔬 DermaDx Lite — AI Skin Disease Classifier
+# DermaDx Lite — AI Skin Disease Classifier
 
 A web application that uses machine learning to diagnose 6 types of erythemato-squamous skin diseases from clinical features.
 
-> ⚠️ **For educational purposes only.** Not for actual medical diagnosis.
+> **For educational purposes only.** Not for actual medical diagnosis.
 
 ---
 
-## 📋 What It Does
+## What It Does
 
 Predicts one of 6 skin diseases from 34 clinical features:
 
@@ -20,20 +20,19 @@ Predicts one of 6 skin diseases from 34 clinical features:
 | 6 | Pityriasis Rubra Pilaris |
 
 **Features:**
-- 🖼️ Optional image upload (auto-fills 2 features using OpenCV)
-- 📋 34-feature clinical form
-- 🤖 XGBoost ML model (~98% accuracy)
-- 📊 Top-3 predictions with confidence scores
-- 🚀 Simple web interface (Streamlit)
+- Optional image upload (auto-fills 2 features using OpenCV)
+- 34-feature clinical form
+- XGBoost ML model (~98% accuracy)
+- Top-3 predictions with confidence scores
+- Simple web interface (Streamlit)
 
 ---
 
-## 🚀 Quick Setup
+## Quick Setup
 
 ### 1. Install Python Dependencies
 
 ```bash
-cd derma-dx-lite
 pip install -r requirements.txt
 ```
 
@@ -68,7 +67,7 @@ Open your browser at **http://localhost:8501**
 
 ---
 
-## 🎮 How to Use
+## How to Use
 
 1. **Upload Image (Optional)** — Upload a skin image to auto-fill erythema and scaling scores
 2. **Fill Features** — Adjust the 34 clinical feature sliders
@@ -77,7 +76,7 @@ Open your browser at **http://localhost:8501**
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 derma-dx-lite/
@@ -92,7 +91,7 @@ derma-dx-lite/
 
 ---
 
-## 🧪 Running Tests (Optional)
+## Running Tests (Optional)
 
 ```bash
 pytest tests/ -v
@@ -100,7 +99,7 @@ pytest tests/ -v
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 - **streamlit** — Web UI
 - **xgboost** — ML model
@@ -113,7 +112,7 @@ See `requirements.txt` for exact versions.
 
 ---
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 **Problem:** `model.pkl not found`  
 **Solution:** Run `python train.py` first
@@ -126,7 +125,7 @@ See `requirements.txt` for exact versions.
 
 ---
 
-## 📄 Dataset
+## Dataset
 
 The dataset is from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/dermatology):
 - 366 samples
@@ -136,7 +135,7 @@ The dataset is from the [UCI Machine Learning Repository](https://archive.ics.uc
 
 ---
 
-## 👥 Team Setup
+## Team Setup
 
 Each team member should:
 
@@ -163,6 +162,6 @@ Each team member should:
 
 ---
 
-## 📝 License
+## License
 
 Educational project. Dataset from UCI ML Repository.
