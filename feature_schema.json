@@ -1,0 +1,250 @@
+{
+  "features": [
+    {
+      "name": "erythema",
+      "index": 0,
+      "min": 0,
+      "max": 3,
+      "type": "int"
+    },
+    {
+      "name": "scaling",
+      "index": 1,
+      "min": 0,
+      "max": 3,
+      "type": "int"
+    },
+    {
+      "name": "definite_borders",
+      "index": 2,
+      "min": 0,
+      "max": 3,
+      "type": "int"
+    },
+    {
+      "name": "itching",
+      "index": 3,
+      "min": 0,
+      "max": 3,
+      "type": "int"
+    },
+    {
+      "name": "koebner_phenomenon",
+      "index": 4,
+      "min": 0,
+      "max": 3,
+      "type": "int"
+    },
+    {
+      "name": "polygonal_papules",
+      "index": 5,
+      "min": 0,
+      "max": 3,
+      "type": "int"
+    },
+    {
+      "name": "follicular_papules",
+      "index": 6,
+      "min": 0,
+      "max": 3,
+      "type": "int"
+    },
+    {
+      "name": "oral_mucosal_involvement",
+      "index": 7,
+      "min": 0,
+      "max": 3,
+      "type": "int"
+    },
+    {
+      "name": "knee_and_elbow_involvement",
+      "index": 8,
+      "min": 0,
+      "max": 3,
+      "type": "int"
+    },
+    {
+      "name": "scalp_involvement",
+      "index": 9,
+      "min": 0,
+      "max": 3,
+      "type": "int"
+    },
+    {
+      "name": "family_history",
+      "index": 10,
+      "min": 0,
+      "max": 1,
+      "type": "int"
+    },
+    {
+      "name": "melanin_incontinence",
+      "index": 11,
+      "min": 0,
+      "max": 3,
+      "type": "int"
+    },
+    {
+      "name": "eosinophils_in_the_infiltrate",
+      "index": 12,
+      "min": 0,
+      "max": 2,
+      "type": "int"
+    },
+    {
+      "name": "PNL_infiltrate",
+      "index": 13,
+      "min": 0,
+      "max": 3,
+      "type": "int"
+    },
+    {
+      "name": "fibrosis_of_the_papillary_dermis",
+      "index": 14,
+      "min": 0,
+      "max": 3,
+      "type": "int"
+    },
+    {
+      "name": "exocytosis",
+      "index": 15,
+      "min": 0,
+      "max": 3,
+      "type": "int"
+    },
+    {
+      "name": "acanthosis",
+      "index": 16,
+      "min": 0,
+      "max": 3,
+      "type": "int"
+    },
+    {
+      "name": "hyperkeratosis",
+      "index": 17,
+      "min": 0,
+      "max": 3,
+      "type": "int"
+    },
+    {
+      "name": "parakeratosis",
+      "index": 18,
+      "min": 0,
+      "max": 3,
+      "type": "int"
+    },
+    {
+      "name": "clubbing_of_the_rete_ridges",
+      "index": 19,
+      "min": 0,
+      "max": 3,
+      "type": "int"
+    },
+    {
+      "name": "elongation_of_the_rete_ridges",
+      "index": 20,
+      "min": 0,
+      "max": 3,
+      "type": "int"
+    },
+    {
+      "name": "thinning_of_the_suprapapillary_epidermis",
+      "index": 21,
+      "min": 0,
+      "max": 3,
+      "type": "int"
+    },
+    {
+      "name": "spongiform_pustule",
+      "index": 22,
+      "min": 0,
+      "max": 3,
+      "type": "int"
+    },
+    {
+      "name": "munro_microabcess",
+      "index": 23,
+      "min": 0,
+      "max": 3,
+      "type": "int"
+    },
+    {
+      "name": "focal_hypergranulosis",
+      "index": 24,
+      "min": 0,
+      "max": 3,
+      "type": "int"
+    },
+    {
+      "name": "disappearance_of_the_granular_layer",
+      "index": 25,
+      "min": 0,
+      "max": 3,
+      "type": "int"
+    },
+    {
+      "name": "vacuolisation_and_damage_of_basal_layer",
+      "index": 26,
+      "min": 0,
+      "max": 3,
+      "type": "int"
+    },
+    {
+      "name": "spongiosis",
+      "index": 27,
+      "min": 0,
+      "max": 3,
+      "type": "int"
+    },
+    {
+      "name": "saw_tooth_appearance_of_retes",
+      "index": 28,
+      "min": 0,
+      "max": 3,
+      "type": "int"
+    },
+    {
+      "name": "follicular_horn_plug",
+      "index": 29,
+      "min": 0,
+      "max": 3,
+      "type": "int"
+    },
+    {
+      "name": "perifollicular_parakeratosis",
+      "index": 30,
+      "min": 0,
+      "max": 3,
+      "type": "int"
+    },
+    {
+      "name": "inflammatory_monoluclear_infiltrate",
+      "index": 31,
+      "min": 0,
+      "max": 3,
+      "type": "int"
+    },
+    {
+      "name": "band_like_infiltrate",
+      "index": 32,
+      "min": 0,
+      "max": 3,
+      "type": "int"
+    },
+    {
+      "name": "age",
+      "index": 33,
+      "min": 7,
+      "max": 120,
+      "type": "int"
+    }
+  ],
+  "class_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ]
+}

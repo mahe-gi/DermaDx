@@ -1,0 +1,17 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Generated model artifacts (run train.py to regenerate)
+model.pkl
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
